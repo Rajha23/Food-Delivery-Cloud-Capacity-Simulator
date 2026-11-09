@@ -50,3 +50,4 @@
 - **Page 18:** Chapter 9 — SRE Economics, Pareto Optimality & OPEX Proofs
 - **Page 19:** Chapter 10 — Production Kubernetes & SRE Infrastructure Manifests
 - **Page 20:** Chapter 11 & 12 — Academic Viva Voce Defense Deck & References
+

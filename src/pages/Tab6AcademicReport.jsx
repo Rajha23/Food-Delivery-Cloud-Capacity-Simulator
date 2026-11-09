@@ -76,13 +76,22 @@ export default function Tab6AcademicReport({ onOpenPrintableReport }) {
             >
               Viva Voce Flashcards ({VIVA_QUESTIONS.length})
             </button>
+            <a
+              href="./Problem_29_Cloud_Capacity_20_Page_Report.pdf"
+              download="Problem_29_Cloud_Capacity_20_Page_Report.pdf"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition shadow-sm"
+              title="Download compiled 20-page PDF report"
+            >
+              <FileText className="w-3.5 h-3.5" />
+              <span>Download 20-Page PDF</span>
+            </a>
             <button
               onClick={onOpenPrintableReport}
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-xs font-bold transition shadow-sm"
               title="Print / Save as PDF"
             >
               <Printer className="w-3.5 h-3.5" />
-              <span>Print / PDF</span>
+              <span>Print Modal</span>
             </button>
           </div>
         </div>

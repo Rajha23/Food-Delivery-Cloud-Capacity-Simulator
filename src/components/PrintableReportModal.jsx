@@ -18,12 +18,21 @@ export default function PrintableReportModal({ isOpen, onClose }) {
             <span className="text-sm font-bold text-white">Academic Project Report (Ready for Print / PDF)</span>
           </div>
           <div className="flex items-center gap-2">
+            <a
+              href="./Problem_29_Cloud_Capacity_20_Page_Report.pdf"
+              download="Problem_29_Cloud_Capacity_20_Page_Report.pdf"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-xs font-bold text-white transition shadow-sm"
+              title="Download compiled 20-page PDF"
+            >
+              <Download className="w-3.5 h-3.5" />
+              <span>Download 20-Page PDF</span>
+            </a>
             <button
               onClick={handlePrint}
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-orange-500 hover:bg-orange-600 text-xs font-bold text-white transition shadow-sm"
             >
               <Printer className="w-3.5 h-3.5" />
-              <span>Print to PDF</span>
+              <span>Print Browser PDF</span>
             </button>
             <button
               onClick={onClose}

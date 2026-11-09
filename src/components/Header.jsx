@@ -107,13 +107,23 @@ export default function Header({
               </button>
             </div>
 
-            {/* Academic Report Trigger */}
+            {/* 20-Page PDF Download & Report Trigger */}
+            <a
+              href="./Problem_29_Cloud_Capacity_20_Page_Report.pdf"
+              download="Problem_29_Cloud_Capacity_20_Page_Report.pdf"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-orange-600 hover:bg-orange-500 text-xs font-bold text-white transition shadow-sm"
+              title="Download official 20-page academic report as PDF"
+            >
+              <FileText className="w-3.5 h-3.5 text-white" />
+              <span>Download 20-Page PDF</span>
+            </a>
+
             <button
               onClick={onOpenReport}
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-200 border border-slate-700 hover:border-slate-600 transition shadow-sm"
             >
-              <FileText className="w-3.5 h-3.5 text-sky-400" />
-              <span>Academic Paper (PDF)</span>
+              <Sparkles className="w-3.5 h-3.5 text-sky-400" />
+              <span>View Report Modal</span>
             </button>
           </div>
         </div>
