@@ -35,3 +35,4 @@ export default function Tab3Capacity() {
     </div>
   );
 }
+

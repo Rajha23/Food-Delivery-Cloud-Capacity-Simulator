@@ -74,3 +74,4 @@ export const VIVA_QUESTIONS = [
     vivaTip: "Emphasize that Kafka acts as a shock absorber / surge buffer between fast client arrivals and capacity-constrained database writes."
   }
 ];
+

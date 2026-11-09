@@ -226,3 +226,4 @@ export const CIRCUIT_BREAKER_STATES = {
     description: "Trial Recovery. A controlled percentage of trial requests are dispatched downstream. If they succeed within latency SLA, circuit resets to CLOSED.",
   }
 };
+

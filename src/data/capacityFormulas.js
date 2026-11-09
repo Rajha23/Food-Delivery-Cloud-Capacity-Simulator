@@ -215,3 +215,4 @@ export const CAPACITY_FORMULAS_DOCS = [
     application: "Eliminates the 'Thundering Herd' / Cache Stampede. As popular restaurant menu items near expiration, exactly ONE background worker recomputes the menu ahead of time, while all other dinner customers continue receiving instant cached reads."
   }
 ];
+

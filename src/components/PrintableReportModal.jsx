@@ -181,3 +181,4 @@ export default function PrintableReportModal({ isOpen, onClose }) {
     </div>
   );
 }
+

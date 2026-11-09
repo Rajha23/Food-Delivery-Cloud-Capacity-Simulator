@@ -278,3 +278,4 @@ export const BENCHMARK_SCENARIOS = {
     }
   }
 };
+

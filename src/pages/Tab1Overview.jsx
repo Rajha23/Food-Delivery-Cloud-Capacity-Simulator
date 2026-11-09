@@ -301,3 +301,4 @@ export default function Tab1Overview({ onNavigateToSimulator }) {
     </div>
   );
 }
+

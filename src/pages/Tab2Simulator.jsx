@@ -417,3 +417,4 @@ export default function Tab2Simulator({ simMode, setSimMode }) {
     </div>
   );
 }
+

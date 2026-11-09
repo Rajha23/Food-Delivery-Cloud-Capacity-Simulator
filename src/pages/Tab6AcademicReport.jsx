@@ -355,3 +355,4 @@ export default function Tab6AcademicReport({ onOpenPrintableReport }) {
     </div>
   );
 }
+
